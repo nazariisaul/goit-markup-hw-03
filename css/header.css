@@ -6,7 +6,6 @@
 }
 
 .header-container {
-  height: 72px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -34,8 +33,6 @@
 /* Navigations styles */
 .header-nav {
   display: flex;
-  width: 253px;
-  height: 72px;
 }
 
 .nav-list {
@@ -51,10 +48,12 @@
   font-weight: 500;
   color: #2e2f42;
   text-decoration: none;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
-.nav-link:hover,
-.nav-link:focus {
+.nav-item:hover,
+.nav-item:focus {
   color: #404bbf;
 }
 
@@ -62,8 +61,6 @@
 
 .header-address {
   display: flex;
-  width: 344px;
-  height: 72px;
 }
 
 .address-list {
@@ -80,6 +77,8 @@
   color: #434455;
   font-style: normal;
   text-decoration: none;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .address-link:hover,

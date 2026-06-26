@@ -1,7 +1,6 @@
 .hero {
   background-color: #2e2f42;
   padding: 188px 0px;
-  height: 600px;
 }
 
 .hero-container {
@@ -14,7 +13,6 @@
 
 .hero-title {
   width: 496px;
-  height: 120px;
   flex-wrap: wrap;
   font-weight: 700;
   font-size: 56px;
@@ -34,9 +32,7 @@
   letter-spacing: 0.04em;
   border-radius: 4px;
   padding: 16px 32px;
-  width: 169px;
-  height: 56px;
-  max-width: 169px;
+  border: none;
 }
 
 .hero-button:hover,
