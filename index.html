@@ -14,83 +14,89 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/main.css" />
-    <title>goit-markup-hw-02</title>
+    <title>goit-markup-hw-03</title>
   </head>
   <body>
-    <header id="header">
-      <a href="./index.html" class="logo"
-        ><span class="logo-web">Web</span>Studio</a
-      >
+    <header id="header" class="header">
+      <div class="header-container">
+        <a href="./index.html" class="logo"
+          ><span class="logo-web">Web</span>Studio</a
+        >
 
-      <nav>
-        <ul class="nav-list">
-          <li>
-            <a href="#features" class="nav-link">Features</a>
-          </li>
-          <li>
-            <a href="#team" class="nav-link">Team</a>
-          </li>
-          <li>
-            <a href="#portfolio" class="nav-link">Portfolio</a>
-          </li>
-        </ul>
-      </nav>
+        <nav class="header-nav">
+          <ul class="nav-list">
+            <li>
+              <a href="#features" class="nav-item">Features</a>
+            </li>
+            <li>
+              <a href="#team" class="nav-item">Team</a>
+            </li>
+            <li>
+              <a href="#portfolio" class="nav-item">Portfolio</a>
+            </li>
+          </ul>
+        </nav>
 
-      <address>
-        <ul class="address-list">
-          <li>
-            <a href="mailto:info@devstudio.com" class="address-link"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a href="tel:+110001111111" class="address-link"
-              >+11 (000) 111-11-11</a
-            >
-          </li>
-        </ul>
-      </address>
+        <address class="header-address">
+          <ul class="address-list">
+            <li>
+              <a href="mailto:info@devstudio.com" class="address-link"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a href="tel:+110001111111" class="address-link"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
 
     <main>
       <section id="hero" class="hero">
-        <h1 class="hero-title">Effective Solutions for Your Business</h1>
-        <button type="button" class="hero-button">Order Service</button>
+        <div class="hero-container">
+          <h1 class="hero-title">Effective Solutions for Your Business</h1>
+          <button type="button" class="hero-button">Order Service</button>
+        </div>
       </section>
 
       <section id="features">
-        <h2>Our Features</h2>
+        <div class="features-container">
+          <h2 class="features-title sr-only">Our Features</h2>
 
-        <ul class="features-list">
-          <li>
-            <h3 class="features-list-title">Strategy</h3>
-            <p class="features-list-text">
-              Our goal is to identify the business problem to walk away with the
-              perfect and creative solution.
-            </p>
-          </li>
-          <li>
-            <h3 class="features-list-title">Punctuality</h3>
-            <p class="features-list-text">
-              Bring the key message to the brand's audience for the best price
-              within the shortest possible time.
-            </p>
-          </li>
-          <li>
-            <h3 class="features-list-title">Diligence</h3>
-            <p class="features-list-text">
-              Research and confirm brands with the strongest digital growth
-              opportunities and minimize risk.
-            </p>
-          </li>
-          <li>
-            <h3 class="features-list-title">Technologies</h3>
-            <p class="features-list-text">
-              Design practice focused on digital experiences. We bring forth a
-              deep passion for problem-solving.
-            </p>
-          </li>
-        </ul>
+          <ul class="features-list">
+            <li class="features-item">
+              <h3 class="features-list-title">Strategy</h3>
+              <p class="features-list-text">
+                Our goal is to identify the business problem to walk away with
+                the perfect and creative solution.
+              </p>
+            </li>
+            <li>
+              <h3 class="features-list-title">Punctuality</h3>
+              <p class="features-list-text">
+                Bring the key message to the brand's audience for the best price
+                within the shortest possible time.
+              </p>
+            </li>
+            <li>
+              <h3 class="features-list-title">Diligence</h3>
+              <p class="features-list-text">
+                Research and confirm brands with the strongest digital growth
+                opportunities and minimize risk.
+              </p>
+            </li>
+            <li>
+              <h3 class="features-list-title">Technologies</h3>
+              <p class="features-list-text">
+                Design practice focused on digital experiences. We bring forth a
+                deep passion for problem-solving.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
 
       <section id="team" class="team">

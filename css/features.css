@@ -1,4 +1,10 @@
+.features-container {
+  display: flex;
+}
+
 .features-list {
+  display: flex;
+  gap: 24px;
   list-style-type: none;
 }
 
@@ -8,9 +14,11 @@
   color: #2e2f42;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 0;
 }
 
 .features-list-text {
+  margin-top: 8px;
   font-weight: 400;
   font-size: 16px;
   color: #434455;
