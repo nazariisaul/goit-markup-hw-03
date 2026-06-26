@@ -1,3 +1,6 @@
+.portfolio-container {
+}
+
 .portfolio-title {
   font-weight: 700;
   font-size: 36px;
@@ -5,10 +8,27 @@
   color: #2e2f42;
   text-align: center;
   letter-spacing: 0.02em;
+  margin: 0;
 }
 
 .portfolio-list {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  margin-top: 72px;
+  flex-wrap: wrap;
   list-style-type: none;
+  padding-left: 0;
+}
+
+.portfolio-card {
+  width: 360px;
+  height: 420px;
+  min-width: 288px;
+  max-width: 360px;
+  min-height: 360px;
+  max-height: 420px;
+  border: 1px solid #e7e9fc;
 }
 
 .portfolio-list-title {
@@ -17,6 +37,9 @@
   color: #2e2f42;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  padding-top: 32px;
+  padding-bottom: 0;
+  margin: 0;
 }
 
 .portfolio-list-descriptions {
@@ -25,4 +48,7 @@
   color: #434455;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding-top: 8px;
+  padding-bottom: 32px;
+  margin: 0;
 }

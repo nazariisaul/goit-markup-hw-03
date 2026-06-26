@@ -1,5 +1,21 @@
 .footer {
+  display: flex;
+  align-items: center;
   background-color: #2e2f42;
+  height: 312px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: flex-start;
+  padding: 0;
+}
+
+.footer-left-container {
+  width: 264px;
+  height: 112px;
+  max-width: 264px;
+  margin: 0;
 }
 
 .footer-text {
@@ -8,6 +24,7 @@
   color: #f4f4fd;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin: 0;
 }
 
 .logo-footer {
@@ -19,6 +36,7 @@
   line-height: 1.33333;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin: 0;
 }
 
 .logo-web {
